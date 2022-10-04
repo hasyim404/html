@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../images/paimon-icon.png">
+    <title>Genshin Impact</title>
+</head>
+
+
+<!-- Keseluruhan, di bagi empat -->
+<frameset rows="10%, *, 13%, 30%" cols="100%" frameborder="no">
+
+    <!-- Bagian 1 - Ukurannya 10% -->
+    <frameset cols="10%, *">
+        <frame src="pages/logo.html" scrolling="no">
+            <frame src="pages/navbar.html" scrolling="no">
+    </frameset>
+
+    <!-- Bagian 2 - MainContent ukurannya adalah sisa dari semua frameset -->
+    <frameset>
+        <frame src="pages/main-Content.html" name="main">
+    </frameset>
+
+    <!-- Bagian 3 - SecondaryContent ukuran 33%, didalamnya dibagi 3  -->
+    <frameset cols="33%, *, 33%">
+        <frame src="pages/sub1-Content.html" scrolling="no">
+            <frame src="pages/sub2-Content.html" scrolling="no">
+                <frame src="pages/sub3-Content.html" scrolling="no">
+    </frameset>
+
+    <!-- Bagian 4 - Footer -->
+    <frameset>
+        <frame src="pages/footer.html" scrolling="no">
+    </frameset>
+
+</frameset>
+
+</html>
